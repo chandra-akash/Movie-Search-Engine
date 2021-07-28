@@ -59,9 +59,9 @@ async function getMovie ()
             document.getElementById( "movies_rating" ).innerHTML = `IMDb Rating:  ${ data.imdbRating }`;
             document.getElementById( "movies_released" ).innerHTML = `Released Date:  ${ data.Released }`;
             document.getElementById( "actors" ).innerHTML = `Actors:  ${ data.Actors }`;
-            document.getElementById( "director" ).innerHTML = `Actors:  ${ data.Director }`;
-            document.getElementById( "writer" ).innerHTML = `Actors:  ${ data.Writer }`;
-            document.getElementById( "language" ).innerHTML = `Actors:  ${ data.Language }`;
+            document.getElementById( "director" ).innerHTML = `Director:  ${ data.Director }`;
+            document.getElementById( "writer" ).innerHTML = `Writer:  ${ data.Writer }`;
+            document.getElementById( "language" ).innerHTML = `Language:  ${ data.Language }`;
         }
 
     } catch ( err )
